@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Parallel Test Suite" parallel="methods" thread-count="2">
+    <test name="Google Title Test">
+        <classes>
+            <class name="com.poly.option9.Parallel.TestTitleGoogle"/>
+        </classes>
+    </test>
+</suite>

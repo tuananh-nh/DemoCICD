@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Parallel Test Suite" parallel="methods" thread-count="4">
+    <test name="Test Login">
+        <classes>
+            <class name="com.poly.option9.option6.TestLoginEdge"/> <!-- Class đầu tiên -->
+            <class name="com.poly.option9.option6.TestLoginChrome"/> <!-- Class thứ hai -->
+        </classes>
+    </test>
+</suite>
