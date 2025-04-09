@@ -8,7 +8,7 @@ public class CalculatorJunit {
 
     // addWrong correct
     public Integer addWrong(int number1, int number2) {
-        return number1 + number2;
+        return 0;
     }
 
     public Integer subtract(int number1, int number2) {
